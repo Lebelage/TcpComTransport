@@ -9,7 +9,7 @@ namespace TcpComTransport.Connections.Helps
         public IPEndPoint _ipEndPoint { get; }
 
         public ConnectionParameters(IPAddress ipAdress, int port) : 
-            this( new IPEndPoint(ipAdress, port)) { }
+            this(new IPEndPoint(ipAdress, port)) { }
 
         public ConnectionParameters(IPEndPoint ipEndPoint)
         {
