@@ -43,6 +43,11 @@ namespace TcpComTransport.DeviceManager
             {
                 _workTask.Wait(500);
             }
+            catch
+            {
+
+
+            }
 
         }
     }

@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <Folder Include="Message\MessageSplitters\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 
 </Project>

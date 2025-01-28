@@ -10,7 +10,6 @@ namespace TcpComTransport.Message
     {
         public IEnumerable<byte> Command { get; set; }
         public bool WaitForResponse { get; set; }
-
         public Func<IEnumerable<byte>, bool> ResponseHandler { get; set; }
     }
 }
